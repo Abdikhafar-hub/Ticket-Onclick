@@ -1,0 +1,134 @@
+/* Main background color for the ticket page */
+.ticket-page-container {
+  background-color: #03254d; /* Light blue background */
+  padding: 3rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 1.5rem;
+}
+
+.ticket-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-description {
+  font-size: 1rem;
+  color: white;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.location-title {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.location-address {
+  font-size: 1rem;
+  color: white;
+}
+
+.ticket-box {
+  text-align: center;
+  padding: 1rem;
+  background-color: #eaf2ff; /* Soft blue */
+  border: 1px solid #cce0ff;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.ticket-box:hover {
+  background-color: #d4e4ff;
+}
+
+.add-to-cart-button {
+  background-color: #007bff; /* Primary blue */
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}
+
+.cart-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 6rem;
+}
+
+.cart-list {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.empty-cart-message {
+  color: black;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+.event-img {
+  max-height: 240px;
+  border-radius: 12px;
+}
+
+.events-container {
+  background-color: white;
+  color: black;
+  border-radius: 4px;
+  margin-bottom: 1px;
+}
+.description {
+  margin: 0px;
+  padding: 0px;
+  font-size: 9px;
+  color: black;
+
+}
+.participants p {
+  margin: 0px;
+  padding: 0px;
+}
+.capacity {
+  background-color: #028043;
+  max-width: max-content;
+  color: white;
+}
+
+
+.sport-headings {
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+.eventcard {
+  min-height: 240px;
+  cursor: pointer;
+}

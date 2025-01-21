@@ -1,0 +1,82 @@
+/* Existing styles */
+.cost {
+  background-color: white;
+  color: #03254d;
+
+  border-radius: 12px;
+}
+
+.buy-ticket {
+  background-color: #03254d;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+.event-image {
+  border-radius: 12px;
+}
+
+.image-side h1 {
+  font-size: 52px;
+  color: green;
+}
+.ticket-description,
+.ticket-type,
+.ticket-price,
+.text-uppercase {
+  color: black;
+}
+
+/* Updated styles for the modal */
+.modal-custom {
+  display: none;
+  position: fixed;
+  z-index: 1050; /* Higher than Bootstrap modals */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); /* Darker background for better focus */
+}
+
+.modal-custom.show {
+  display: block;
+}
+
+.modal-custom-content {
+  background-color: #312e2b; /* Match the page background color */
+  color: rgb(211, 209, 209); /* Match text color */
+  margin: 15% auto;
+  padding: 20px;
+  border: none;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 12px; /* Match the border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close-custom {
+  color: rgb(211, 209, 209); /* Match text color */
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-custom:hover,
+.close-custom:focus {
+  color: white; /* Lighter color for hover/focus */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-custom-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}

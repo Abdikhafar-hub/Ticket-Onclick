@@ -1,0 +1,40 @@
+body {
+  /* background-color: #e0e0e0; */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.card {
+  background-color: #05254d;
+  border-radius: 15px;
+}
+
+.form-label {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.form-control {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+}
+
+.image-fluid {
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mt-4 .btn {
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px;
+  transition: background-color 0.3s;
+  background: green;
+  color:white
+}
+
+.mt-4 .btn:hover {
+  background-color: rgb(9, 95, 9);
+}

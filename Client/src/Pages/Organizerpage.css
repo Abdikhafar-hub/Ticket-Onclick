@@ -1,0 +1,48 @@
+/* Container for the main content */
+.submit-event {
+  max-width: 320px;
+}
+
+input[type="text"],
+input[type="datetime-local"],
+input[type="number"],
+select,
+textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* Event List Styles */
+.organizer-add {
+  background: #c2b19c;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card-body {
+  background: #ffffff;
+  border: dotted 1.5px #343f55;
+  border-radius: 12px;
+}
+
+.card-title {
+  font-family: "Roboto", sans-serif;
+  color: #343f55;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #343f55;
+}
+

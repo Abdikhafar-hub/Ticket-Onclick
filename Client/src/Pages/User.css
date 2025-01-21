@@ -1,0 +1,81 @@
+.custom-btn-danger:hover {
+  background-color: #9e2020;
+}
+
+.avatar {
+  height: 64px;
+}
+.naming-containers {
+  background: #ffffff;
+  padding: 8px;
+  border-radius: 24px;
+  border: dotted 1.5px #343f55;
+  cursor: not-allowed;
+}
+
+.owner {
+  background: #ffffff;
+  padding: 8px;
+  font-size: 12px;
+}
+.profile-navigator {
+  border: solid 1px white;
+  background-color: #343f55;
+  min-height: 480px;
+}
+.profile-container {
+  background-color: #c2b19c;
+  position: relative;
+  min-height: 670px;
+}
+.profile-container p {
+  color: #343f55;
+
+  font-family: "Roboto";
+  font-weight: 600;
+}
+.profile-navigator p {
+  color: white;
+  font-weight: 400;
+}
+.profile-navigator p:hover {
+  color: rgb(236, 182, 182);
+  cursor: pointer;
+}
+.profile-container i {
+  color: #343f55;
+}
+.delete-container {
+  border: solid 1px rgb(194, 8, 8);
+  cursor: auto;
+
+  /* transition: all 2s; */
+}
+.delete-container p {
+  color: rgb(194, 8, 8);
+}
+.delete-container:active {
+  border: solid 2px red;
+  padding: -3px;
+}
+
+.delete-container i {
+  color: rgb(194, 8, 8);
+}
+.edit {
+  cursor: pointer;
+}
+.profile-title {
+  font-family: "Russo One";
+}
+.account-title {
+  font-family: "Russo One";
+  color: antiquewhite;
+}
+.profiled-tickets .view-event {
+  cursor: pointer;
+  color: #9e2020;
+}
+.profiled-tickets .card {
+  background: white;
+}
