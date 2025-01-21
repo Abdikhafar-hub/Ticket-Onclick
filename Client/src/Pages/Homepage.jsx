@@ -174,27 +174,19 @@ function Homepage() {
                     <div className="col rounded p-5 shadow-sm our-part">
                       <h5 className="">Our Story</h5>
                       <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Rerum tenetur dolores, minus deserunt iure in
-                        atque sapiente consectetur, sed, doloremque odit non
-                        eum. Veniam impedit accusantium possimus inventore
-                        debitis aspernatur!
+                      At Ticket OnClick, we believe that memorable events start with seamless planning and effortless ticketing. Our journey began with a vision to simplify the way people organize and attend events. From intimate gatherings to grand celebrations, we strive to provide a platform that bridges the gap between event organizers and attendees. With passion and innovation at our core, we are here to turn your ideas into unforgettable experiences.
+
+
                       </p>
                       <h5 className="">Mission</h5>
                       <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Rerum tenetur dolores, minus deserunt iure in
-                        atque sapiente consectetur, sed, doloremque odit non
-                        eum. Veniam impedit accusantium possimus inventore
-                        debitis aspernatur!
+                      Our mission is to empower event organizers and attendees by offering a reliable, user-friendly platform for managing events and ticketing. We aim to streamline the entire event process—from creating events to selling tickets—ensuring convenience, transparency, and satisfaction for everyone involved.
+
+
                       </p>
                       <h5 className="">Vision</h5>
                       <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                        elit. Rerum tenetur dolores, minus deserunt iure in
-                        atque sapiente consectetur, sed, doloremque odit non
-                        eum. Veniam impedit accusantium possimus inventore
-                        debitis aspernatur!
+                      We envision a world where every event, big or small, is just a click away. At Ticket OnClick, we aspire to be the go-to platform for event management and ticketing, fostering connections and creating memories. Through cutting-edge technology and exceptional service, we aim to redefine the way people experience events.
                       </p>
                     </div>
                     <div className="col">
@@ -213,11 +205,7 @@ function Homepage() {
                                   style={{ color: "white" }}
                                   className=" quotes fa-solid fa-quote-left"
                                 ></i>{" "}
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Adipisci alias at quam, iste
-                                obcaecati suscipit dolorem reiciendis veritatis
-                                eveniet fugit culpa dolor cum sequi ex sed
-                                officiis incidunt exercitationem! Eius.
+                                "Ticket OnClick made organizing my event effortless! From creating the event page to tracking ticket sales, everything was so seamless. Their platform is incredibly user-friendly, and the customer support team was always there to assist. Thanks to Ticket OnClick, my event was a huge success!"
                               </p>
                             </div>
                           </div>
