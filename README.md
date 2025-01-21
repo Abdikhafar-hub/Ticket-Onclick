@@ -10,7 +10,7 @@ Our platform aims to simplify the event discovery and booking process by offerin
 
 ## Team
 
-- **Full Stack**: React (Frontend) & Flask (Backend)
+- **Full Stack**: React (Frontend) & NodeJs (Backend)
 
 ## MVP Features
 
@@ -27,8 +27,8 @@ Our platform aims to simplify the event discovery and booking process by offerin
 
 ## Technical Expectations
 
-- **Backend**: Flask
-- **Database**: PostgreSQL
+- **Backend**: NodeJs
+- **Database**: MySQL
 - **Wireframes**: Canva (Should be mobile friendly)
 - **Frontend**: ReactJs & Redux Toolkit (state management)
 
