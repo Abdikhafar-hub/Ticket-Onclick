@@ -1,16 +1,18 @@
-# Ticket Onclick
+
+Markdown
+# Ticket-Onclick
 
 ## Problem Statement
 
-In today's fast-paced world, people are constantly looking for ways to discover and attend events that interest them. However, there are often challenges with finding reliable event ticketing platforms that provide easy access to tickets and streamline the booking process for both event organizers and attendees. Many existing platforms are either too complex or lack essential features, such as a simple user interface, secure payment processing, and real-time ticket availability updates.
+In today's fast-paced world, people are constantly looking for ways to discover and book events seamlessly.
 
 ## Solution
 
-Our platform aims to simplify the event discovery and booking process by offering a user-friendly interface, secure payment processing, and real-time ticket availability updates. It caters to both event organizers and attendees, ensuring a seamless experience for all users.
+Our platform aims to simplify the event discovery and booking process by providing a user-friendly interface and robust backend.
 
 ## Team
 
-- **Full Stack**: React (Frontend) & NodeJs (Backend)
+- **Full Stack**: React (Frontend) & Node.js (Backend)
 
 ## MVP Features
 
@@ -18,81 +20,61 @@ Our platform aims to simplify the event discovery and booking process by offerin
 
 - **JWT Bearer**: Secure authentication using JWT.
 - **User Defined Roles**: Define user roles with preset permissions.
-- **Event Creation**: Organizers can create events and set the number of available tickets.
+- **Event Creation**: Organizers can create events and set the details.
 - **Tiered Pricing**: Different pricing tiers (Early booking, MVP, Regular).
 - **Add to Calendar**: Customers can add events to their calendar.
-- **Account Management**: Customers can register an account and view previously bought tickets.
-- **Payment Integration**: Customers can pay for tickets using MPESA STK.
-- **Search Functionality**: Events can be searched and found through selecting a location, tags, or categories.
+- **Account Management**: Customers can register an account and view their profile.
+- **Payment Integration**: Customers can pay for tickets using MPESA.
+- **Search Functionality**: Events can be searched and found through various filters.
 
 ## Technical Expectations
 
-- **Backend**: NodeJs
+- **Backend**: Node.js
 - **Database**: MySQL
+- **Frontend**: React.js & Redux Toolkit (state management)
 - **Wireframes**: Canva (Should be mobile friendly)
-- **Frontend**: ReactJs & Redux Toolkit (state management)
 
 ## Getting Started
 
 ### Prerequisites
 
+- Node.js
 - npm
-- Python and pip
-- PostgreSQL
+- MySQL
 
 ### Installation
 
 1. **Backend Setup**
 
-   - Navigate to the backend directory:
-     ```bash
-     cd backend
-     ```
-   - Create a virtual environment and activate it:
-     ```bash
-     python -m venv venv
-     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-     ```
-   - Install the required packages:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - Set up the PostgreSQL database and update the database URI in the environment variables.
-
-2. **Frontend Setup**
-   - Navigate to the frontend directory:
-     ```bash
-     cd frontend
-     ```
-   - Install the required packages:
-     ```bash
-     npm install
-     ```
-
-### Running the Application
-
-1. **Start the Backend Server**
-
-   ```bash
-   flask run
-   ```
-
-2. **Start the Frontend Server**
-   ```bash
-   npm start
-   ```
-
-### Testing
-
-- **Backend Testing**
+- Navigate to the backend directory:
   ```bash
-  pytest
-  ```
-- **Frontend Testing**
-  ```bash
-  npm test
-  ```
+  cd backend
+Install the required packages:
+bash
+npm install
+Set up the MySQL database:
+Create a database named ticket_onclick.
+Update the .env file with your database credentials.
+Frontend Setup
+##Navigate to the frontend directory:
+bash
+cd frontend
+##Install the required packages:
+bash
+npm install
+Running the Application
+##Start the backend server:
+bash
+cd backend
+npm start
+##Start the frontend development server:
+bash
+cd frontend
+npm start
+Your application should now be running on http://localhost:3000.
 
-## Contributing
+##License
+This project is licensed under the MIT License.
 
-We welcome contributions! Please fork the repository and submit pull requests.
+##Code
+You can edit the README.md file to include this updated content.
