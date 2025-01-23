@@ -1,4 +1,4 @@
-Ticket Onclick
+#Ticket Onclick
 Problem Statement
 In today's fast-paced world, people are constantly looking for ways to discover and attend events that interest them. However, there are often challenges with finding reliable event ticketing platforms that provide easy access to tickets and streamline the booking process for both event organizers and attendees. Many existing platforms are either too complex or lack essential features, such as a simple user interface, secure payment processing, and real-time ticket availability updates.
 
