@@ -1,6 +1,5 @@
-I don't have the capability to edit files directly. You can manually update the README file using the content provided below. Copy and paste it into your README.md file:
 
-```markdown
+
 # Ticket Onclick
 
 ## Problem Statement
@@ -81,6 +80,5 @@ npm test
 
 ## Contributing
 We welcome contributions! Please fork the repository and submit pull requests.
-```
 
-You can edit the file by navigating to the [README.md file](https://github.com/Abdikhafar-hub/Ticket-Onclick/edit/main/README.md) and pasting the content above.
+
