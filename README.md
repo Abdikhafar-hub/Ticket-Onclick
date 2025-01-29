@@ -1,6 +1,6 @@
 
 
-# T
+# Ti
 
 ## Problem Statement
 In today's fast-paced world, people are constantly looking for ways to discover and attend events that interest them. However, there are often challenges with finding reliable event ticketing platforms.
